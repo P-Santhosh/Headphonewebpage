@@ -44,7 +44,7 @@
         box-shadow: 1px 1px 3px 3px grey;
       }
       .coltwo {
-    width:45%;
+    width:38%;
     padding: 10px;
     margin-top: 50px;
   
@@ -169,4 +169,10 @@
       text-align: left;
       color: rgb(78, 76, 76);
   
+  }
+  @media screen and (max-width:900px){
+    .coltwo{
+      width:38%;
+      margin-left: 300px;
+    }
   }
