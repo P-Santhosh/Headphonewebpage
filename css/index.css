@@ -1,0 +1,181 @@
+
+      body{
+        font-size: 25px;
+    }
+  .header{
+  justify-content:space-between;
+  display:flex;
+    margin : 5px 90px 10px 100px;  
+  }
+  nav{
+    display:flex;
+  }
+  li{
+    list-style-type:none;
+    padding:25px;  
+  }
+  .col-container {
+display: flex;
+    
+} 
+.header :hover{
+cursor: pointer;
+
+}
+  .colone {
+ width:45%;
+padding: 100px;
+}
+ .colone h1{
+     font-size: 60px;
+ }
+  .readmore{
+      
+border-radius:40px;
+background: rgb(43, 41, 41);
+padding : 10px 25px;
+
+font-size: 20px;
+text-align: center;
+color:rgba(245, 241, 241, 0.945);
+
+  }
+  .readmore:hover{
+    box-shadow: 1px 1px 2px 2px grey;
+    cursor: pointer;
+  }
+  .coltwo {
+width:45%;
+padding: 10px;
+margin-top: 40px;
+margin-left: 25px;
+
+}
+.coltwo img{
+height: 600px;
+}
+
+  
+  .sectionone{
+      
+      position: relative;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+
+      }
+      .sectionone h1{
+          font-size: 70px;
+      }
+      .sectionone h4{
+          font-size: px;
+      }
+      .sectionone p{
+          font-size: 23px;
+      }
+  .centered{
+     
+      position: absolute;
+      text-align: center;
+      color: white;
+      top:15%;
+      left:20%;
+      right: 20%;
+     
+  }
+  .centered p{
+    line-height: 50px;
+  }
+  .backgrdimg{
+width:100%;
+height:800px;
+background-size: cover;
+background-position:bottom ;
+
+background-image: linear-gradient( rgba(2, 2, 2,0.71), rgba(3, 3, 3,0.71)),url( "headphone2.jpg");
+}
+.container{
+          display: grid;
+          grid-template-columns: 40% 40% 20%;
+          width: 100%;
+         margin-bottom: -7px;
+          
+      }
+     .one img{
+         width: 100%;
+        background-size: cover;
+        height: 606px;
+      }
+     .two  img{
+        
+         background-size: cover;
+         width: 100%;
+         height: 300px;
+         
+      }
+     .three{
+         background-size: cover;
+         width: 100%;
+         height: 300px;
+      
+       }
+     .two1 img{
+      background-size: cover;
+      width: 49%;
+      height: 300px;
+    
+      
+     }
+
+  .footer-container {
+display: flex;
+    background-color:rgb(27, 26, 26);
+    color: white;
+ padding-left: 200px; 
+
+}  
+
+.footer-container p{
+  font-size: 15px;
+  color:lightgray;
+  
+}
+
+.footer-container p:hover{
+    cursor: pointer;
+  }
+ 
+  .footerone {
+ width:18%;
+padding: 12px;
+
+}
+.footertwo {
+ width:18%;
+padding: 12px;
+}
+.footerthree {
+ width:18%;
+padding: 12px;
+}
+.footerfour {
+ width:18%;
+padding: 12px;
+}
+.emailbt{
+  border:2px solid rgb(46, 45, 45);
+  background-color:rgb(46, 45, 45);
+  border-radius: 40px;
+  width:190px;
+  padding:10px;
+  padding-left: 15px;
+  border-right:40px solid cornsilk;
+  color:lightgray;
+  text-align: left;
+
+}
+.emailbt:hover{
+    box-shadow: 2px 2px 0px 0px grey;
+ 
+
+}
+  }
